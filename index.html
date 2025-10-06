@@ -22,43 +22,38 @@
       </div>
       <div class="top-right">
         <ul>
-          <li>My Account</li>
+          <a href="/main/login.html"><li>Login</li></a>
           <span class="line"></span>
-          <li>Register</li>
+          <a href="/main/register.html"><li>Register</li></a>
         </ul>
       </div>
     </div>
-
     <!-- navbar code  -->
-    <header>
-      <nav class="navbar">
-        <!-- logo  -->
-        <div class="logo">𝓁𝑜𝑔𝑜<span>.</span></div>
+    <nav>
+      <div class="logo">𝓁𝑜𝑔𝑜<span>.</span></div>
+      <ul id="menuList">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
 
-        <!-- menu list  -->
-        <div class="menu-bar">
-          <ul>
-            <a href=""><li class="munu-link active">Home</li></a>
-            <a href=""><li class="munu-link">Shop</li></a>
-            <a href=""><li class="munu-link">About</li></a>
-            <a href=""><li class="munu-link">Contact</li></a>
-            <a href=""><li class="munu-link">Blog</li></a>
-          </ul>
-        </div>
+      <ul class="">
+        <li class="menu-right">
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+      </ul>
 
-        <ul class="">
-          <li class="menu-right">
-            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          </li>
-        </ul>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i id="openIcon" class="fa-solid fa-bars"></i>
+        <i id="closeIcon" class="fa-solid fa-xmark"></i>
+      </div>
+    </nav>
 
-        <div class="hamb-parent">
-          <a href=""><i class="fa-solid fa-bars hamburg"></i></a>
-        </div>
-      </nav>
-    </header>
+    <!-- end navbar code  -->
 
     <!-- hero section  -->
     <section>
@@ -99,17 +94,14 @@
     </section>
     <!-- end our products section  -->
 
-
-
     <!-- new products section  -->
-     <section class="new-product">
+    <section class="new-product">
       <h2>New-Products</h2>
       <div class="product-section">
-         <div class="card-container">
-
+        <div class="card-container">
           <!-- card 1  -->
           <div class="card">
-            <img src="/images/1.avif" alt="" >
+            <img src="/images/1.avif" alt="" />
             <div class="card-content">
               <p class="title">Maxi-Dress</p>
               <div class="price-tag">
@@ -122,7 +114,7 @@
 
           <!-- card 2  -->
           <div class="card">
-             <img src="/images/2.avif" alt="" >
+            <img src="/images/2.avif" alt="" />
             <div class="card-content">
               <p class="title">Black-Gown</p>
               <div class="price-tag">
@@ -135,7 +127,7 @@
 
           <!-- card 3  -->
           <div class="card">
-             <img src="/images/3.avif" alt="" >
+            <img src="/images/3.avif" alt="" />
             <div class="card-content">
               <p class="title">T-Shirt</p>
               <div class="price-tag">
@@ -148,7 +140,7 @@
 
           <!-- card 4  -->
           <div class="card">
-            <img src="/images/4.avif" alt="" >
+            <img src="/images/4.avif" alt="" />
             <div class="card-content">
               <p class="title">Purse</p>
               <div class="price-tag">
@@ -159,27 +151,23 @@
             </div>
           </div>
 
-
-         </div>
+          <a href="/Cart/cart.html"><button class="btn-n">Show More</button></a>
+        </div>
       </div>
-     </section>
+    </section>
     <!-- end new products section  -->
 
-
-
     <!--  new trend section  -->
-      <div class="banner2">
-          <img src="/images//banner2.jpg" alt="" class="trend">
-          <div class="trend-title">
-            <h4>NEW TREND 2025</h4>
-            <h3>Women's COLLECTION</h3>
-            <p>Big Sell Of This Week</p>
-            <button class="btn1">SHOP NOW</button>
-          </div>
+    <div class="banner2">
+      <img src="/images//banner2.jpg" alt="" class="trend" />
+      <div class="trend-title">
+        <h4>NEW TREND 2025</h4>
+        <h3>Women's COLLECTION</h3>
+        <p>Big Sell Of This Week</p>
+        <button class="btn1">SHOP NOW</button>
       </div>
+    </div>
     <!-- end new trend section  -->
-
-
 
     <!-- Footer section  -->
 
@@ -193,7 +181,7 @@
         </ul>
       </div>
       <div class="section2">
-         <ul class="footer-list">
+        <ul class="footer-list">
           <li>Login/Register</li>
           <li>Your Cart</li>
           <li>Wishlist Items</li>
@@ -201,12 +189,13 @@
         </ul>
       </div>
       <div class="section3">
-         <ul class="footer-list">
+        <ul class="footer-list">
           <li>FAQs</li>
           <li>Terms of Service</li>
           <li>Privacy Policy</li>
           <li>Returns</li>
-        </ul></div>
+        </ul>
+      </div>
       <div class="section4">
         <!-- logo  -->
         <div class="logo">𝓁𝑜𝑔𝑜<span>.</span></div>
@@ -216,12 +205,8 @@
       </div>
     </div>
 
-     <div class="footer-bottom">Copyright @Chiragha 2025</div>
+    <div class="footer-bottom">Copyright @Chiragha 2025</div>
     <!-- end footer section  -->
-     
-
-
-
 
     <!-- script file  -->
     <script src="script.js"></script>

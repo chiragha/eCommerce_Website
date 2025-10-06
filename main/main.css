@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --white-clr: #fff;
+  --black-clr: #000;
+  --light-clr: #333;
+  --light2-clr: #f2f2f2;
+  --primary-clr: #e6303d;
+  --primary-clr2: #cf5159;
+  --grey-shade: #9b9b9b;
+  --green-clr: #015650;
+}
+
+
+body {
+  font-family: "Outfit", sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: var(--green-clr);
+     background-color: var(--grey-shade);
+}
+
+li{
+    list-style: none;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+a{
+    text-decoration: underline;
+}
+
+/* styling  */
+
+.container{
+    margin: 0 15px;
+ 
+}
+
+.form-box{
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: var(--light2-clr);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-clr);
+    font-weight: 300;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--white-clr);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-clr);
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    color: var(--white-clr);
+    font-weight: 400;
+    margin-bottom: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--primary-clr2);
+}
