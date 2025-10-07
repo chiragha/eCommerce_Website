@@ -15,44 +15,45 @@
 </head>
 <body>
 
-        <!-- top nav bar  -->
-    <div class="top-nav">
-      <div class="top-left">
-        <i class="fa-solid fa-phone phn"></i>+1800-234-4567/7 DAYS A WEEK FROM
-        9:00 A.M TO 7:00 P.M
-      </div>
-      <div class="top-right">
-        <ul>
-          <a href="/main/login.html"><li>Login</li></a>
-          <span class="line"></span>
-          <a href="/main/register.html"><li>Register</li></a>
-        </ul>
-      </div>
-    </div>
     <!-- navbar code  -->
     <nav>
       <div class="logo">𝓁𝑜𝑔𝑜<span>.</span></div>
-      <ul id="menuList">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Product</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
+     
+        <div class="menu-right">
+          <i class="fa-solid fa-cart-shopping cart-icon"></i>
+          <span class="cart_count">0</span>
 
-      <ul class="">
-        <li class="menu-right">
-          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a href=""><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-        </li>
-      </ul>
-
-      <div class="menu-icon" onclick="toggleMenu()">
-        <i id="openIcon" class="fa-solid fa-bars"></i>
-        <i id="closeIcon" class="fa-solid fa-xmark"></i>
-      </div>
+        </div>
+   
     </nav>
+
+
+    <!-- cart add code  -->
+       <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+           <!-- <div class="cart-box">
+              <img src="/images/12.avif" alt="img">
+              <div class="cart-details">
+                <h2 class="cart-product-title">T-Shirt</h2>
+                <span class="cart-price">$100</span>
+                <div class="cart-quantity">
+                  <button id="decrement">-</button>
+                <span class="number">1</span>
+                  <button id="increment">+</button>
+                </div>
+              </div>
+              <i class="fa-solid fa-trash cart-remove"></i>
+           </div> -->
+        </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button class="btn-buy">Buy Now</button>
+          <i class="fa-solid fa-xmark" id="cart-close"></i>
+       </div>
+    <!-- end cart add code  -->
 
     <!-- end navbar code  -->
         <!-- new products section  -->
@@ -69,7 +70,8 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
             </div>
           </div>
 
@@ -82,7 +84,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -95,7 +99,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -108,7 +114,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -121,7 +129,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -134,7 +144,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -148,7 +160,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -163,7 +177,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -178,7 +194,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -192,7 +210,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -206,7 +226,9 @@
                 <div class="del">$150.0</div>
                 <span class="amount">$100.0</span>
               </div>
-              <button class="btn1">Add to Cart</button>
+              <button class="btn1">Buy Now</button>
+              <i class="fa-solid fa-bag-shopping btn2"></i>
+
             </div>
           </div>
 
@@ -214,6 +236,6 @@
       </div>
     </section>
     <!-- end new products section  -->
-     <script src="/script.js"></script>
+     <script src="cart.js"></script>
 </body>
 </html>
