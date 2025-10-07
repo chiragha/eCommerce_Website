@@ -33,8 +33,7 @@ This project is currently built using **HTML and CSS**, with **JavaScript and PH
 ---
 
 <!-- * ## 🖼 Screenshots
-(Add screenshots of your website here for better visual understanding) * -->
-
+(Add screenshots of your website here for better visual understanding) * 
 ---
 
 ## 📁 Folder Structure
@@ -43,6 +42,7 @@ This project is currently built using **HTML and CSS**, with **JavaScript and PH
 - /index.html -> Main HTML file
 - /script.js -> JavaScript (to be added
 
+-->
 
 ---
 
