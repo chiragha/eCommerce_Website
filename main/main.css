@@ -51,7 +51,7 @@ a{
  
 }
 
-.form-box{
+.form-box, .form-box1{
     width: 100%;
     max-width: 450px;
     padding: 30px;
@@ -97,3 +97,8 @@ button{
 button:hover{
     background-color: var(--primary-clr2);
 }
+
+.error {
+    color: var(--primary-clr);
+    font-size: 14px;
+  }

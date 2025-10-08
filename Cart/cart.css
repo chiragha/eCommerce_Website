@@ -18,13 +18,13 @@ a{
     text-decoration: none;
 }
 
-/* ✅ Universal Responsive Image Rule */
-/* img {
-  width: 100%;
-  height: auto;
+.error {
+  color: red;
+  font-size: 14px;
   display: block;
-  object-fit: cover;
-} */
+  margin-top: 5px;
+}
+
 
 
 :root {

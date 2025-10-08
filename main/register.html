@@ -12,13 +12,21 @@
         <div class="form-box" id="login-form">
           <form action="">
             <h2>Register</h2>
-            <input type="name" placeholder="Enter Your Name...">
-            <input type="email" placeholder="Enter Your Email...">
-            <input type="password" placeholder="Enter Your password...">
-            <button type="submit" name="login">Login</button>
-            <p>You Already have an account? <a href="/main/login.html" >Login</a></p>
+             <span id="nameError" class="error"></span>
+            <input type="name" placeholder="Enter Your Name..." id="name">
+           
+            <span id="emailError" class="error"></span>
+            <input type="email" placeholder="Enter Your Email..." id="email">
+            
+            <span id="passwordError" class="error"></span>
+            <input type="password" placeholder="Enter Your password..." id="password">
+            
+
+            <button type="submit" name="login" id="submit">Register</button>
+            <p>You Already have an account? <a href="login.html" >Login</a></p>
           </form>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
